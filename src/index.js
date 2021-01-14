@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './header'
-import Home from './Home'
 import bootstrap from 'bootstrap/dist/css/bootstrap.css'
-
+import Home from './Home'
+import PokemonDetails from './PokemonDetails'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 ReactDOM.render(
-  <>
-    <Header />
-    <Home />
-  </>,
+  <Router>
+    <Switch>
+       <Route path="/" exact component = {Home} />
+       <Route path=":/PokemonId" exact component={PokemonDetails}/>
+    </Switch>  
+  </Router>,
   document.getElementById('root')
 );
 
