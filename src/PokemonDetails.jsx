@@ -1,9 +1,12 @@
 import React from 'react';
 
-const PokemonDetails = () =>{
+function PokemonDetails (){
+
+    const id = window.location.pathname.substr(1)
+
     return(
         <div>
-            PokemonDetails page
+           {id}
         </div>
     )
 }
