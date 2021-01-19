@@ -56,4 +56,19 @@
 
   /*POKEMON DETAILS */
 
+  .name{
+    text-align: center;
+  }
+
+  .species{
+    display: flex;
+  }
+
+  .species img{
+    max-width: 400px;
+  }
+
+  .details{
+    padding-left: 50px;
+  }
   

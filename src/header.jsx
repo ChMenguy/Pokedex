@@ -3,7 +3,9 @@ import './App.css';
 
 function Header(){
         return (
-        <img src={pokemon} alt="logoPokemon" className='logoPokemon'/>
+    
+            <img src={pokemon} alt="logoPokemon" className='logoPokemon'/>
+        
     )
         }
 
